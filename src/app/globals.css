@@ -1,0 +1,103 @@
+/**
+ * Theme tokens + base styles
+ * --------------------------
+ * Handles: the Scandinavian-minimal look — off-white ground, warm grey type,
+ *          one sage accent, type scale, spacing, focus rings, and reduced-motion.
+ *
+ * Tailwind v4 reads the `@theme` block so utilities like `bg-background`
+ * and `text-accent` exist. Components should use these names, not raw hex.
+ *
+ * Does not handle: pattern colours. Those come from each pattern’s palette
+ * so the UI chrome stays quiet and the chart can be the hero.
+ */
+
+@import "tailwindcss";
+
+:root {
+  --background: #f6f3ee;
+  --foreground: #3d3833;
+  --muted: #7a736b;
+  --muted-foreground: #5c564f;
+  --surface: #fffdf9;
+  --surface-2: #efeae2;
+  --border: #e2dbd2;
+  --accent: #3f6f64;
+  --accent-foreground: #f6f3ee;
+  --accent-soft: #e4efe9;
+  --ring: #3f6f64;
+  --danger: #9a4a3c;
+  --radius: 0.875rem;
+  --shadow-soft: 0 10px 30px rgb(61 56 51 / 0.06);
+  --header-height: 4.25rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-soft: var(--accent-soft);
+  --color-ring: var(--ring);
+  --color-danger: var(--danger);
+  --font-sans: var(--font-outfit), "Segoe UI", sans-serif;
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --radius-sm: 0.5rem;
+  --radius-md: var(--radius);
+  --radius-lg: 1.25rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--foreground);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 80;
+  border-radius: 999px;
+  background: var(--foreground);
+  color: var(--background);
+  padding: 0.5rem 1rem;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}

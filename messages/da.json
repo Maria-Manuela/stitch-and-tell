@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Stitch & Tell",
+    "description": "Drøm det. Design det. Hækl det. Gør et foto eller din egen ide til et hæklemønster.",
+    "homeTitle": "Stitch & Tell — gør hæklemønsteret til dit"
+  },
+  "brand": {
+    "name": "Stitch & Tell",
+    "tagline": "Drøm det. Design det. Hækl det.",
+    "taglineSecondary": "Din idé. Dit mønster. Dit håndværk."
+  },
+  "nav": {
+    "create": "Lav mønster",
+    "gallery": "Galleri",
+    "guides": "Guider",
+    "account": "Konto",
+    "primary": "Hovedmenu",
+    "openMenu": "Åbn menu",
+    "closeMenu": "Luk menu",
+    "skipToContent": "Spring til indhold"
+  },
+  "header": {
+    "settings": "Indstillinger",
+    "openSettings": "Åbn indstillinger",
+    "language": "Sprog"
+  },
+  "language": {
+    "en": "English",
+    "da": "Dansk",
+    "switchTo": "Skift sprog"
+  },
+  "home": {
+    "heroEyebrow": "Hæklemønstre, gjort personlige",
+    "ctaPrimary": "Lav et mønster",
+    "ctaSecondary": "Udforsk galleriet",
+    "howTitle": "Sådan virker det",
+    "howLead": "Tre rolige trin. Almindeligt sprog, ingen fagudtryk.",
+    "step1Title": "Start med et foto eller et tomt gitter",
+    "step1Body": "Upload et billede, eller sæt farverne selv. Vi opfinder aldrig masker med AI.",
+    "step2Title": "Tilpas størrelse og farver",
+    "step2Body": "Vælg, hvor mange masker bredt det skal være, og hold farveantallet ærligt.",
+    "step3Title": "Få et diagram, du faktisk kan hækle efter",
+    "step3Body": "Et kvadratisk gitter, skrevne rækker og symboler, der virker uden farver.",
+    "examplesTitle": "Et par eksempler",
+    "examplesLead": "Rolige diagrammer. Farverne tilhører den, der hækler — ikke grænsefladen.",
+    "example1Title": "Folkekunstblomst",
+    "example1Meta": "Tapestry · 24 × 24",
+    "example2Title": "Lille hus",
+    "example2Meta": "Graphghan · 20 × 16",
+    "example3Title": "Siddende kat",
+    "example3Meta": "Hjørne til hjørne · 18 × 18",
+    "exampleSoon": "Kun forhåndsvisning — konverteren kommer bagefter."
+  },
+  "create": {
+    "title": "Lav et mønster",
+    "lead": "Vælg, hvordan du vil begynde. Konverteren og designeren flytter ind her bagefter — dette er kun døren ind.",
+    "fromPhotoTitle": "Fra et foto",
+    "fromPhotoBody": "Beskær et billede, skaler det til et maskegitter, og reducer det til et lille farveantal. Det kommer til at ske i din browser.",
+    "fromPhotoHint": "Kommer snart",
+    "designTitle": "Design dit eget",
+    "designBody": "Mal masker på et tomt diagram. Samme mønsterformat, samme skrevne opskrift, intet foto nødvendigt.",
+    "designHint": "Kommer snart",
+    "note": "Mønstergitre bygges af kode, aldrig af en billed-AI. Kvadrater forbliver kvadrater. Farveantallet overskrides ikke."
+  },
+  "gallery": {
+    "title": "Galleri",
+    "lead": "Offentlige mønstre vises her, når nogen aktivt vælger at dele dem. Deling er altid tilvalg.",
+    "empty": "Galleriet er stadig tomt. Lav et mønster, og publicér det — hvis du har lyst."
+  },
+  "guides": {
+    "title": "Guider",
+    "lead": "Guider kommer snart",
+    "body": "Vi skriver vejledningerne, når værktøjet er færdigt, så siderne matcher det, du faktisk ser på skærmen."
+  },
+  "account": {
+    "title": "Konto",
+    "lead": "Login kommer til at ligge her — magisk link eller engangskode, uden adgangskode at huske.",
+    "body": "Når du er logget ind, synkroniseres indstillinger og private mønstre. Indtil da gemmes dine valg i denne browser.",
+    "privacyNote": "Herfra vil du kunne hente eller slette dine data."
+  },
+  "privacy": {
+    "title": "Privatliv",
+    "lead": "Et kort, ærligt udkast. Den fulde politik bliver færdig inden lancering.",
+    "s1Title": "Hvad vi indsamler",
+    "s1Body": "Så lidt som muligt. Mønsterdata er bevidst små. Originalfotos bliver i din browser, medmindre du senere vælger at gemme ét.",
+    "s2Title": "Cookies",
+    "s2Body": "Nødvendige cookies husker sprog og indstillinger. Analysecookies er slået fra, indtil du accepterer dem i banneret.",
+    "s3Title": "Dine rettigheder",
+    "s3Body": "Du kan bede om en kopi af dine data eller om at få dem slettet. Offentlig deling er aldrig standard."
+  },
+  "terms": {
+    "title": "Vilkår",
+    "lead": "Midlertidige vilkår til skallen. De bliver gennemgået, før noget sælges eller genereres i stor skala.",
+    "s1Title": "Tjenesten",
+    "s1Body": "Stitch & Tell hjælper dig med at gøre et foto eller et design til et hæklediagram. Du beholder rettighederne til de mønstre, du laver.",
+    "s2Title": "Rimelig brug",
+    "s2Body": "Upload ikke billeder, du ikke har ret til at bruge. Forsøg ikke at omgå de ugentlige begrænsninger.",
+    "s3Title": "Ingen garanti endnu",
+    "s3Body": "Appen er under opbygning. Tjek diagrammer, før du bruger garn på dem."
+  },
+  "settings": {
+    "title": "Indstillinger",
+    "description": "Disse valg følger dig rundt i appen. De gemmes i denne browser, indtil du har en konto.",
+    "language": "Sprog",
+    "languageHelp": "Ændrer teksten i grænsefladen og adressen i URL’en.",
+    "handedness": "Håndethed",
+    "handednessHelp": "Ændrer kun, hvordan diagrammer og rækkens retning vises — aldrig selve mønsteret.",
+    "handednessRight": "Højrehåndet",
+    "handednessLeft": "Venstrehåndet",
+    "terminology": "Terminologi",
+    "terminologyHelp": "Maskenavne i den skrevne opskrift.",
+    "terminologyUs": "US",
+    "terminologyUk": "UK",
+    "terminologyDa": "Dansk",
+    "units": "Enheder",
+    "unitsHelp": "Mål som færdig størrelse.",
+    "unitsCm": "Centimeter",
+    "unitsIn": "Tommer",
+    "close": "Luk indstillinger",
+    "savedLocally": "Gemt på denne enhed"
+  },
+  "footer": {
+    "tagline": "Drøm det. Design det. Hækl det.",
+    "create": "Lav et mønster",
+    "gallery": "Galleri",
+    "guides": "Guider",
+    "account": "Konto",
+    "privacy": "Privatliv",
+    "terms": "Vilkår",
+    "cookies": "Cookieindstillinger",
+    "language": "Sprog",
+    "copyright": "© {year} Stitch & Tell"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "body": "Vi bruger nødvendige cookies, så siden husker dit sprog og dine indstillinger. Analyse er slået fra, indtil du siger ja.",
+    "necessary": "Kun nødvendige",
+    "accept": "Acceptér analyse",
+    "necessaryLabel": "Nødvendige cookies",
+    "necessaryHelp": "Altid slået til — sprog, indstillinger, samtykke.",
+    "analyticsLabel": "Analyse",
+    "analyticsHelp": "Valgfrit. Hjælper os med at se, hvilke sider der er nyttige. Fra, indtil du accepterer.",
+    "manageTitle": "Cookieindstillinger"
+  },
+  "notFound": {
+    "title": "Den side er ikke på diagrammet",
+    "body": "Den maske, du ledte efter, er her ikke.",
+    "home": "Tilbage til forsiden"
+  },
+  "a11y": {
+    "examplePattern": "Forhåndsvisning af eksempelmønster"
+  }
+}

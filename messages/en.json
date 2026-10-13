@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Stitch & Tell",
+    "description": "Don't just follow a pattern. Make it personal. Turn a photo or your own design into a crochet pattern.",
+    "homeTitle": "Stitch & Tell — make a crochet pattern your own"
+  },
+  "brand": {
+    "name": "Stitch & Tell",
+    "tagline": "Don't just follow a pattern. Make it personal.",
+    "taglineSecondary": "Your idea. Your pattern. Your craft."
+  },
+  "nav": {
+    "create": "Create",
+    "gallery": "Gallery",
+    "guides": "Guides",
+    "account": "Account",
+    "primary": "Primary",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to content"
+  },
+  "header": {
+    "settings": "Settings",
+    "openSettings": "Open settings",
+    "language": "Language"
+  },
+  "language": {
+    "en": "English",
+    "da": "Dansk",
+    "switchTo": "Switch language"
+  },
+  "home": {
+    "heroEyebrow": "Crochet patterns, made yours",
+    "ctaPrimary": "Create a pattern",
+    "ctaSecondary": "Browse the gallery",
+    "howTitle": "How it works",
+    "howLead": "Three calm steps. No jargon, no guesswork.",
+    "step1Title": "Start from a photo or a blank grid",
+    "step1Body": "Upload a picture or place colours by hand. We never invent stitches with AI.",
+    "step2Title": "Tune the size and the palette",
+    "step2Body": "Pick how many stitches wide it should be, and keep the colour count honest.",
+    "step3Title": "Get a chart you can actually crochet",
+    "step3Body": "A square grid, written rows, and symbols that work even without colour.",
+    "examplesTitle": "A few example patterns",
+    "examplesLead": "Quiet charts. The colours belong to the maker — not to the interface.",
+    "example1Title": "Folk flower",
+    "example1Meta": "Tapestry · 24 × 24",
+    "example2Title": "Little house",
+    "example2Meta": "Graphghan · 20 × 16",
+    "example3Title": "Sitting cat",
+    "example3Meta": "Corner to corner · 18 × 18",
+    "exampleSoon": "Preview only — the converter comes next."
+  },
+  "create": {
+    "title": "Create a pattern",
+    "lead": "Choose how you would like to begin. The converter and the designer will live here next — this is just the doorway.",
+    "fromPhotoTitle": "From a photo",
+    "fromPhotoBody": "Crop a picture, shrink it to a stitch grid, and reduce it to a handful of colours. All of that will happen in your browser.",
+    "fromPhotoHint": "Coming next",
+    "designTitle": "Design your own",
+    "designBody": "Paint stitches on a blank chart. Same pattern format, same written instructions, no photo required.",
+    "designHint": "Coming next",
+    "note": "Pattern grids are built by code, never by an image-generating AI. Squares stay square. Colour counts stay honest."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "lead": "Public patterns will appear here when makers choose to share them. Sharing is always opt-in.",
+    "empty": "The gallery is still empty. Create a pattern, then — if you like — publish it."
+  },
+  "guides": {
+    "title": "Guides",
+    "lead": "Guides coming soon",
+    "body": "We will write the how-to guides once the tool itself is finished, so the pages match what you actually see on screen."
+  },
+  "account": {
+    "title": "Account",
+    "lead": "Sign in will live here — magic link or email code, no password to remember.",
+    "body": "When you are signed in, your settings and private patterns will sync. Until then, preferences stay in this browser.",
+    "privacyNote": "You will be able to download or delete your data from this page."
+  },
+  "privacy": {
+    "title": "Privacy",
+    "lead": "A short, honest draft. The full policy will be finished before launch.",
+    "s1Title": "What we collect",
+    "s1Body": "As little as possible. Pattern data is small on purpose. Original photos stay in your browser unless you later choose to store one.",
+    "s2Title": "Cookies",
+    "s2Body": "Necessary cookies remember your language and settings. Analytics cookies stay off until you accept them on the banner.",
+    "s3Title": "Your rights",
+    "s3Body": "You can ask for a copy of your data, or ask us to delete it. Public sharing is never the default."
+  },
+  "terms": {
+    "title": "Terms",
+    "lead": "Placeholder terms for the shell. They will be reviewed before anything is sold or generated at scale.",
+    "s1Title": "The service",
+    "s1Body": "Stitch & Tell helps you turn a photo or a design into a crochet chart. You keep the rights to patterns you create.",
+    "s2Title": "Fair use",
+    "s2Body": "Do not upload images you do not have the right to use. Do not attempt to bypass weekly limits.",
+    "s3Title": "No warranty yet",
+    "s3Body": "The app is under construction. Charts should be double-checked before you spend yarn on them."
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "These choices follow you around the app. They are saved in this browser until you have an account.",
+    "language": "Language",
+    "languageHelp": "Changes the words in the interface and the URL.",
+    "handedness": "Handedness",
+    "handednessHelp": "Only changes how charts and row directions are shown — never the pattern itself.",
+    "handednessRight": "Right-handed",
+    "handednessLeft": "Left-handed",
+    "terminology": "Terminology",
+    "terminologyHelp": "Stitch names in written instructions.",
+    "terminologyUs": "US",
+    "terminologyUk": "UK",
+    "terminologyDa": "Dansk",
+    "units": "Units",
+    "unitsHelp": "Measurements such as finished size.",
+    "unitsCm": "Centimetres",
+    "unitsIn": "Inches",
+    "close": "Close settings",
+    "savedLocally": "Saved on this device"
+  },
+  "footer": {
+    "tagline": "Don't just follow a pattern. Make it personal.",
+    "create": "Create a pattern",
+    "gallery": "Gallery",
+    "guides": "Guides",
+    "account": "Account",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookie settings",
+    "language": "Language",
+    "copyright": "© {year} Stitch & Tell"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "body": "We use necessary cookies so the site remembers your language and settings. Analytics stay off until you say yes.",
+    "necessary": "Necessary only",
+    "accept": "Accept analytics",
+    "necessaryLabel": "Necessary cookies",
+    "necessaryHelp": "Always on — locale, settings, consent choice.",
+    "analyticsLabel": "Analytics",
+    "analyticsHelp": "Optional. Helps us see which pages are useful. Off until you accept.",
+    "manageTitle": "Cookie settings"
+  },
+  "notFound": {
+    "title": "This page is not on the chart",
+    "body": "The stitch you were looking for is not here.",
+    "home": "Back to home"
+  },
+  "a11y": {
+    "examplePattern": "Example pattern preview"
+  }
+}

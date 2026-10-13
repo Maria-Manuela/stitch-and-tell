@@ -1,0 +1,27 @@
+/**
+ * Per-request i18n configuration
+ * ------------------------------
+ * Handles: picking a valid locale for this request and loading the matching
+ *          message file. Server Components call `getTranslations()` against
+ *          this config.
+ *
+ * Does not handle: URL rewriting (proxy) or client-side language switching
+ * (Header / SettingsSheet via `useRouter` from `./navigation`).
+ */
+
+import { hasLocale } from "next-intl";
+import { getRequestConfig } from "next-intl/server";
+import { routing } from "./routing";
+
+export default getRequestConfig(async ({ requestLocale }) => {
+  // `requestLocale` comes from the `[locale]` segment (via the proxy).
+  const requested = await requestLocale;
+  const locale = hasLocale(routing.locales, requested)
+    ? requested
+    : routing.defaultLocale;
+
+  return {
+    locale,
+    messages: (await import(`../../messages/${locale}.json`)).default,
+  };
+});
