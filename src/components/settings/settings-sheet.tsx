@@ -56,7 +56,12 @@ function ChoiceGroup<T extends string>({
     <fieldset className="space-y-3">
       <legend className="text-sm font-semibold">{legend}</legend>
       <p className="text-sm text-muted-foreground">{help}</p>
-      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+      <div
+        className={cn(
+          "grid grid-cols-1 gap-2",
+          options.length === 3 ? "sm:grid-cols-3" : "sm:grid-cols-2",
+        )}
+      >
         {options.map((option) => {
           const id = `${name}-${option.value}`;
           const checked = option.value === value;

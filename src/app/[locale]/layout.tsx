@@ -50,6 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       template: `%s · ${t("title")}`,
     },
     description: t("description"),
+    icons: { icon: "/favicon.svg" },
   };
 }
 

@@ -22,6 +22,8 @@ export type Entitlements = {
   patternsPerWeek: number | "unlimited";
   maxColors: number;
   minColors: number;
+  /** Convenience alias used by limit checks: `{ width, height }`. */
+  maxGrid: { width: number; height: number };
   maxGridWidth: number;
   maxGridHeight: number;
   /** Small “Made with Stitch & Tell” line on exported PDFs. */
@@ -30,13 +32,20 @@ export type Entitlements = {
   canPublishToGallery: boolean;
 };
 
+function gridEntitlements() {
+  return {
+    maxGrid: { width: GRID_LIMITS.maxWidth, height: GRID_LIMITS.maxHeight },
+    maxGridWidth: GRID_LIMITS.maxWidth,
+    maxGridHeight: GRID_LIMITS.maxHeight,
+  };
+}
+
 export const PLANS: Record<PlanId, Entitlements> = {
   free: {
     patternsPerWeek: 1,
     minColors: COLOR_LIMITS.min,
     maxColors: COLOR_LIMITS.max,
-    maxGridWidth: GRID_LIMITS.maxWidth,
-    maxGridHeight: GRID_LIMITS.maxHeight,
+    ...gridEntitlements(),
     pdfBranding: true,
     canSavePrivate: true,
     canPublishToGallery: true,
@@ -49,8 +58,7 @@ export const PLANS: Record<PlanId, Entitlements> = {
     patternsPerWeek: "unlimited",
     minColors: COLOR_LIMITS.min,
     maxColors: COLOR_LIMITS.max,
-    maxGridWidth: GRID_LIMITS.maxWidth,
-    maxGridHeight: GRID_LIMITS.maxHeight,
+    ...gridEntitlements(),
     pdfBranding: false,
     canSavePrivate: true,
     canPublishToGallery: true,
@@ -60,8 +68,7 @@ export const PLANS: Record<PlanId, Entitlements> = {
     patternsPerWeek: 1,
     minColors: COLOR_LIMITS.min,
     maxColors: COLOR_LIMITS.max,
-    maxGridWidth: GRID_LIMITS.maxWidth,
-    maxGridHeight: GRID_LIMITS.maxHeight,
+    ...gridEntitlements(),
     pdfBranding: true,
     canSavePrivate: true,
     canPublishToGallery: true,
@@ -71,8 +78,7 @@ export const PLANS: Record<PlanId, Entitlements> = {
     patternsPerWeek: 1,
     minColors: COLOR_LIMITS.min,
     maxColors: COLOR_LIMITS.max,
-    maxGridWidth: GRID_LIMITS.maxWidth,
-    maxGridHeight: GRID_LIMITS.maxHeight,
+    ...gridEntitlements(),
     pdfBranding: true,
     canSavePrivate: true,
     canPublishToGallery: true,

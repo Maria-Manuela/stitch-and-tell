@@ -27,7 +27,9 @@ export function Footer() {
   const t = useTranslations("footer");
   const brand = useTranslations("brand");
   const { openBanner } = useCookieConsent();
-  const year = new Date().getFullYear();
+  // Pass a string so next-intl does not locale-format the year (2,026 vs 2026),
+  // which would mismatch between the server render and the client hydrate.
+  const year = String(new Date().getFullYear());
 
   return (
     <footer className="mt-auto border-t border-border bg-surface">

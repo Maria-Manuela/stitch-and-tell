@@ -39,9 +39,12 @@ export async function CreatePage() {
 
       <div className="mt-12 grid gap-6 md:grid-cols-2">
         {choices.map((choice) => (
-          <div
+          <button
             key={choice.title}
-            className="flex min-h-64 flex-col rounded-3xl border border-border bg-surface p-8 text-left"
+            type="button"
+            aria-disabled="true"
+            title={choice.hint}
+            className="flex min-h-64 flex-col rounded-3xl border border-border bg-surface p-8 text-left transition-colors hover:border-accent/40 focus-visible:border-accent"
           >
             <choice.icon
               aria-hidden="true"
@@ -51,7 +54,7 @@ export async function CreatePage() {
             <h2 className="mt-6 font-display text-2xl">{choice.title}</h2>
             <p className="mt-3 flex-1 text-muted-foreground">{choice.body}</p>
             <p className="mt-6 text-sm font-medium text-accent">{choice.hint}</p>
-          </div>
+          </button>
         ))}
       </div>
 

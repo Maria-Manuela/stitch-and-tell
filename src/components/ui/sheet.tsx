@@ -47,7 +47,7 @@ export function SheetContent({
       <SheetOverlay />
       <Dialog.Content
         className={cn(
-          "fixed z-50 flex flex-col bg-surface shadow-[var(--shadow-soft)] outline-none",
+          "fixed z-50 flex flex-col bg-surface shadow-[var(--shadow-soft)] outline-none relative",
           side === "right" &&
             "inset-y-0 right-0 h-full w-full max-w-md border-l border-border",
           side === "bottom" &&
